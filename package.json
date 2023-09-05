@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "execjs": "^1.0.7",
+    "jsdom": "^22.0.0",
+    "node-encrypt-js": "^1.0.4",
+    "vm2": "^3.9.19"
+  },
+  "devDependencies": {
+    "crypto-js": "^4.1.1",
+    "md5": "^2.3.0"
+  }
+}

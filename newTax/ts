@@ -1,0 +1,11 @@
+o["signature"] = Object(p["a"])(o["zipCode"] + o["encryptCode"] + c + o["timestamp"] + o["signtype"], u)
+o.datagram = ""
+ o["encryptCode"] = "2")),
+
+ "post" === t.method && ("/auth/oauth2/getPublicKey" === t.url || "/auth/white/sendSm4" === t.url
+ || "/auth/user/logout" === t.url || "/auth/user/checklogin" === t.url
+ || "/auth/qrcode/verifyQRCode" === t.url ||
+ "/auth/message/sendSmsCode" === t.url ||
+ "/auth/oauth2/revokeToken" === t.url ||
+ "/auth/white/getAreCode" === t.url || "/auth/white/getSecondAuthInfo" === t.url ||
+ t.url.includes("/auth/message/captchaImage") ? (o["encryptCode"] = "0",
